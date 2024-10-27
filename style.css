@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Hero Section */
+  .hero {
+    background-color: #f7f7f7;
+    padding: 100px 20px;
+    text-align: center;
+    background-image: url("https://wallpaperaccess.com/full/47504.jpg");
+    background-size: cover;
+    color: #fff;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .cta-button {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 8px 17px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .cta-button:hover {
+    background-color: #c44129;
+  }
+
+  /* Product Details Section */
+  .product-details {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .product-info {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .product-info img {
+    max-width: 280px;
+    border-radius: 10px;
+  }
+
+  .product-details h2{
+    color: #ff5733;
+  }
+
+  .product-description h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  .product-description p {
+    margin-bottom: 20px;
+  }
+
+  .product-description h4 {
+    font-size: 1.2rem;
+    color: #ff5733;
+  }
+
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  /* .testimonials h2{
+    color: #ff5733;
+  } */
+
+
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card p {
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+
+  .card h4 {
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  /* Email Subscription Section */
+  .subscription {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .subscription form {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .subscription input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .subscription button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .subscription button:hover {
+    background-color: #c44129;
+  }
+
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
